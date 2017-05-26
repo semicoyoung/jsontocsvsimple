@@ -40,4 +40,4 @@ console.log(err);
 npm test
 
 #### note
-- if you want to change where the csv you want to output, change the fileFolder correctly
+- if you want to change where the csv you want to output, change the value of fileFolder in the index.js correctly
