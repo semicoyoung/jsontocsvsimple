@@ -1,0 +1,28 @@
+{
+  "name": "jsontocsvsimple",
+  "version": "0.0.1",
+  "description": "a module to help covert json data to a csv file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semicoyoung/jsontocsvsimple.git"
+  },
+  "keywords": [
+    "json",
+    "csv"
+  ],
+  "author": "semicoyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semicoyoung/jsontocsvsimple/issues"
+  },
+  "homepage": "https://github.com/semicoyoung/jsontocsvsimple#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "csv": "^1.1.1",
+    "thunkify-wrap": "^1.0.4"
+  }
+}
