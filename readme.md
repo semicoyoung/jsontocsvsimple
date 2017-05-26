@@ -38,3 +38,6 @@ console.log(err);
 #### test
 
 npm test
+
+#### note
+- if you want to change where the csv you want to output, change the fileFolder correctly

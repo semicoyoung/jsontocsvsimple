@@ -4,7 +4,7 @@ let csv = require('csv');
 let fs =require('fs');
 let thunkify = require('thunkify-wrap');
 
-let fileFolder = '../../';
+let fileFolder = './';
 let fileExt = '.csv';
 const fileLimit = 1000000000000;
 
