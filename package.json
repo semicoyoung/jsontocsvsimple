@@ -1,6 +1,6 @@
 {
   "name": "jsontocsvsimple",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a module to help covert json data to a csv file",
   "main": "index.js",
   "scripts": {
