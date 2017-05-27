@@ -19,7 +19,7 @@ let header = ['aa', 'bb']; //header of the export file
 let data = [{aa: 1, b: 1}, {aa:2, b:2}];
 
 co(function* () {
-  yield jsontocsvsimple.exportCsv(fileName, header, data);
+  yield jsontocsvsimple.expostCsv(fileName, header, data);
 }).then(function () {}, function (err) {
   console.log(err);
 })
