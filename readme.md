@@ -30,9 +30,9 @@ console.log(err);
 
 - exportCsv
 
-- fileName: name of the csv file
-- header: header fields of csv file
-- data: json to convert
+  - fileName: name of the csv file
+  - header: header fields of csv file
+  - data: json to convert
 
 #### test
 
