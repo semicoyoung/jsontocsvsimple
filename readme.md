@@ -12,15 +12,14 @@ npm install csvtojsonsimple --save
 
 ```
 let csvtojsonsimple = require('csvtojsonsimple');
-let CsvToJsonSimple = new csvtojsonsimple();
 let co = require('co');
 
-let fileName = 'example';
-let header = ['aa', 'bb']; //header of the output file
+let fileName = 'example';  //name of the export file
+let header = ['aa', 'bb']; //header of the export file
 let data = [{aa: 1, b: 1}, {aa:2, b:2}];
 
 co(function* () {
-yield JsonToCsvSimple(fileName, header, data);
+yield csvtojsonsimple(fileName, header, data);
 }).then(function () {}, function (err) {
 console.log(err);
 })

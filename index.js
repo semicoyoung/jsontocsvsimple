@@ -78,4 +78,4 @@ jsontocsvsimple.prototype.expostCsv = function* (fileName, headers, data) {
   return true;
 };
 
-module.exports = jsontocsvsimple;
+module.exports = new jsontocsvsimple();
