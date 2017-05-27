@@ -6,12 +6,12 @@
 #### install
 
 ```
-npm install csvtojsonsimple --save
+npm install jsontocsvsimple --save
 ```
 #### sample
 
 ```
-let csvtojsonsimple = require('csvtojsonsimple');
+let jsontocsvsimple = require('jsontocsvsimple');
 let co = require('co');
 
 let fileName = 'example';  //name of the export file
@@ -19,9 +19,9 @@ let header = ['aa', 'bb']; //header of the export file
 let data = [{aa: 1, b: 1}, {aa:2, b:2}];
 
 co(function* () {
-yield csvtojsonsimple(fileName, header, data);
+  yield jsontocsvsimple.exportCsv(fileName, header, data);
 }).then(function () {}, function (err) {
-console.log(err);
+  console.log(err);
 })
 
 ```
